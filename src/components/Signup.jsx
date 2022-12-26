@@ -1,5 +1,5 @@
 import { Form, Button } from "react-bootstrap";
-import GoogleButton from "react-google-button";
+import { Link} from "react-router-dom";
 
 function SignUp() {
   return (
@@ -22,7 +22,7 @@ function SignUp() {
         </Form>
         <div className="yesAccount mt-3">
           <p>Already have an Account?</p>
-          <a href="">Log In</a>
+          <Link to="/">Log In</Link>
         </div>
       </div>
     </div>
