@@ -3,7 +3,7 @@ import GoogleButton from "react-google-button";
 
 function Login() {
   return (
-    <>
+    <div className="login">
       <div className="p-4 box text-center">
         <h2 className="mb-3">Firebase Auth Login</h2>
         <Form>
@@ -17,11 +17,18 @@ function Login() {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
           <Button variant="primary" type="submit">
-        Login
-      </Button>
+            Login
+          </Button>
         </Form>
+        <div className="gb mt-3">
+          <GoogleButton />
+        </div>
+        <div className="noAccount mt-3">
+          <p>Don't have an Account?</p>
+          <a href="">Sign Up</a>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 
