@@ -1,2 +1,2 @@
 # firebase-login-protectedRoutes
-Login, sign up page with protected routes
+Login and sign up page with protected routes
